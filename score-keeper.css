@@ -1,0 +1,19 @@
+#all {
+    margin-top: 50px;
+}
+
+img {
+    margin-top: 5%;
+}
+
+#inlineFormCustomSelect {
+    margin-bottom: 20px;
+}
+
+#buttons {
+    margin-bottom: 20px;
+}
+
+#widget {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
