@@ -51,10 +51,13 @@ playerTwoButton.addEventListener('click', function () {
 })
 
 
-resetButton.addEventListener('click', function () {
+resetButton.addEventListener('click', reset)
+selector.addEventListener('change', reset)
+
+function reset() {
     playerOneButton.disabled = false;
     playerTwoButton.disabled = false;
     scoreBoardOne.innerText = 0
     scoreBoardTwo.innerText = 0
     resetColor()
-})
+}
