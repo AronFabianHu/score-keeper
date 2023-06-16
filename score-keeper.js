@@ -23,8 +23,8 @@ const looserTwo = function () {
     scoreBoardTwo.style.color = 'red'
 }
 const resetColor = function () {
-    scoreBoardOne.style.color = '#323232'
-    scoreBoardTwo.style.color = '#323232'
+    scoreBoardOne.style.color = '#212529'
+    scoreBoardTwo.style.color = '#212529'
 }
 
 
